@@ -19,6 +19,16 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 #include <stdio.h>
 
 int main() {
+  int x;
+  int y;
+  printf("input total distance in km:);
+  scanf("%d",&x);
+  printf("input total amount(rate):);
+  scanf("%f",&y);
+  printf("calculate at the amount(rate)%.3f",x/y);
+  printf("\n");
+         
+  
   
   return 0;
 }
