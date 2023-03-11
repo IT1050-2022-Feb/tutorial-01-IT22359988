@@ -13,7 +13,20 @@ int main() {
    printf("Enter a value for no 2 : ");
    scanf("%d", &no2);
    printf("%d ", minimum(no1, no2));
+   scanf("%d %d",&no1,&no2);
+   minimum=no1>no2;
+   printf("minimum=%d",minimum);
    printf("%d ", maximum(no1, no2));
+   scanf("%d %d",&no1,&no2);
+   maximum=no1<no2;
+   printf("maximum=%d",maximum);
    printf("%d ", multiply(no1, no2));
+   scanf("%d %d",&no1,&no2);
+   multiply=no1*no2;
+   printf("multiply=%d",multiply);
+   
+
+   
+   
    return 0;
 }
